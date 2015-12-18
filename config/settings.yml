@@ -9,5 +9,8 @@ plugins:
     default: "Escalate"
     client: true
   topic_group_button_allowed_group:
-    default: "trust_level_4"
+    default: 
+      - "trust_level_4"
+      - "some_other_group"
+      - "some_other_other_group"
     client: true
