@@ -1,12 +1,12 @@
 plugins:
   topic_group_button_url:
-    default: "https://www.discourse.org"
+    default: "https://www.discourse.org?topic_id=<TOPIC_ID>"
     client: true
   topic_group_button_title:
-    default: "Button description here.."
+    default: "Start escalation process for this Topic"
     client: true
   topic_group_button_label:
-    default: "Click Me"
+    default: "Escalate"
     client: true
   topic_group_button_allowed_group:
     default: "trust_level_4"
