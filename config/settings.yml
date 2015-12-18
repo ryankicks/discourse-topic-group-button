@@ -1,6 +1,6 @@
 plugins:
   topic_group_button_url:
-    default: "https://www.discourse.org?topic_id=<TOPIC_ID>"
+    default: "https://www.discourse.org?topic_id=<TOPIC_ID>&session_id=<SESSION_ID>"
     client: true
   topic_group_button_title:
     default: "Start escalation process for this Topic"
